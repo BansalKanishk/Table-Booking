@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "MarkaziText";
+  src: url("./assets/fonts/MarkaziText-Regular.ttf");
+}
+@font-face {
+  font-family: "MarkaziText";
+  src: url("./assets/fonts/MarkaziText-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "MarkaziText";
+  src: url("./assets/fonts/MarkaziText-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "MarkaziText";
+  src: url("./assets/fonts/MarkaziText-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Karla";
+  src: url("./assets/fonts/Karla-Regular.ttf");
+}
+@font-face {
+  font-family: "Karla";
+  src: url("./assets/fonts/Karla-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Karla";
+  src: url("./assets/fonts/Karla-Bold.ttf");
+  font-weight: 700;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --primary1: #495e57;
+  --primary2: #f4ce14;
+  --secondary1: #ee9972;
+  --secondary2: #fbdabb;
+  --highlight1: #edefee;
+  --highlight2: #333333;
+  --font1: "MarkaziText";
+  --font2: "Karla";
+  --border-radius: 16px;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+}
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
